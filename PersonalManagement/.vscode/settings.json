@@ -1,0 +1,38 @@
+{
+    // Disable GitHub Copilot AI code completions.
+    "github.copilot.enable": {
+        "*": false
+    },
+
+    // Disable AI-powered next edit suggestions.
+    "github.copilot.nextEditSuggestions.enabled": false,
+
+    // Keep traditional IntelliSense enabled.
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+
+    // Disable inline ghost-text suggestions.
+    "editor.inlineSuggest.enabled": false,
+
+    // Keep C# language support enabled.
+    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": false,
+    "dotnet.hover.showXmlDocumentation": true,
+
+    // General editing behavior.
+    "editor.tabCompletion": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+
+    // Keep compiler diagnostics visible.
+    "editor.renderValidationDecorations": "on"
+}
