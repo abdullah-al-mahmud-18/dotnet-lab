@@ -34,5 +34,9 @@
     "editor.formatOnPaste": false,
 
     // Keep compiler diagnostics visible.
-    "editor.renderValidationDecorations": "on"
+    "editor.renderValidationDecorations": "on",
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
 }
