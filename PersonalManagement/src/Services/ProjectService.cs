@@ -4,7 +4,7 @@ namespace PersonalManagement.Services;
 
 public class ProjectService
 {
-    public Project CreateProject(string name, DateTime deadline, string desc = "N/A")
+    public Project Create(string name, DateTime deadline, string desc = "N/A")
     {
         return new Project()
         {
