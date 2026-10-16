@@ -8,8 +8,8 @@ public class Project
     public List<WorkItem> workItems { get; set; } = new List<WorkItem>();
     public ProjectStatus Status { get; set; }
     public DateTime CreatedOn { get; set; }
-    public DateTime StartedOn { get; set; }
-    public DateTime EndedOn { get; set; }
+    public DateTime? StartedOn { get; set; }
+    public DateTime? EndedOn { get; set; }
     public DateTime DeadLine { get; set; }
     public bool IsArchived { get; set; } = false;
 }
